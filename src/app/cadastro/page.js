@@ -64,7 +64,7 @@ export default function Cadastro() {
           <Button type="submit" className="w-full">
             Criar conta
           </Button>
-          
+
           <Button variant="outline" className="w-full">
             Cadastrar com Google
           </Button>

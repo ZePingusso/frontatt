@@ -1,6 +1,7 @@
 
- import { Button } from '@/components/ui/button';
- import Feed from '@/components/ui/feed';
+import { Button } from '@/components/ui/button';
+import Feed from '@/components/ui/feed';
+
 export default function Home() {
   return (
     <main className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 w-full">
@@ -13,8 +14,8 @@ export default function Home() {
           Este cabeçalho e os botões agora fazem parte do Layout global.
         </p>
       </header>
-        <Feed />
-        
+      <Feed />
+
       {/* Botões fixos no layout */}
       <div className="mt-8 flex gap-4">
         <Button>Button 1</Button>

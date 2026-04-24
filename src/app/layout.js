@@ -32,6 +32,7 @@ export default function RootLayout({ children }) {
         {/* Menu fixo */}
         <TopBar />
 
+
         {/* Conteúdo das páginas */}
         {children}
       </body>

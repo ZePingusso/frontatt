@@ -51,25 +51,25 @@ export default function Login() {
                   </Label>
                   <Link
                     href="#"
-                  
+
                   >
                     Esqueceu a senha?
                   </Link>
                 </div>
-                <Input 
-                    id="password" 
-                    type="password" 
-                    required 
-                    className="h-11 border-slate-300 focus:ring-2 focus:ring-indigo-500"
+                <Input
+                  id="password"
+                  type="password"
+                  required
+                  className="h-11 border-slate-300 focus:ring-2 focus:ring-indigo-500"
                 />
               </div>
 
-              <Button 
-  type="submit" 
-  className="h-11 w-full bg-indigo-600 text-white font-bold hover:bg-indigo-700"
->
-  Entrar
-</Button>
+              <Button
+                type="submit"
+                className="h-11 w-full bg-indigo-600 text-white font-bold hover:bg-indigo-700"
+              >
+                Entrar
+              </Button>
             </div>
           </form>
 
